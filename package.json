@@ -1,0 +1,22 @@
+{
+  "name": "try-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkabeee/try-puppeteer.git"
+  },
+  "author": "tkabeee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkabeee/try-puppeteer/issues"
+  },
+  "homepage": "https://github.com/tkabeee/try-puppeteer#readme",
+  "devDependencies": {
+    "puppeteer": "^1.0.0"
+  }
+}
