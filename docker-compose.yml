@@ -1,13 +1,14 @@
 version: '3.4'
 
 services:
-  web:
+  node:
     build:
       context: .
       dockerfile: Dockerfile
-    command: npm run dev
+    # command: npm run dev
     volumes:
-      - .:/usr/app/
+      - app:/usr/app
+    working_dir: /usr/app
+    entrypoint: ['node']
     ports:
       - "3000:3000"
-    environment:
