@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tkabeee/try-puppeteer#readme",
   "devDependencies": {
+    "eslint": "^4.17.0",
     "puppeteer": "^1.0.0"
   }
 }
