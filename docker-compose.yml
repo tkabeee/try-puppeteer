@@ -1,13 +1,10 @@
 version: '3.4'
 
 services:
-  node:
+  api:
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - ./app:/usr/app
     working_dir: /usr/app
-    entrypoint: ['node']
-    ports:
-      - "3000:3000"
